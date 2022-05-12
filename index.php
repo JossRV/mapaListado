@@ -1,3 +1,7 @@
+<?php
+    require_once "./app/dependencias.php";
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -5,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./public/css/style.css"> -->
 </head>
 
 <body>
@@ -14,7 +18,7 @@
             x="0px" y="0px" width="100%" height="100%" viewBox="0 300 1200 600" xml:space="preserve">
             <g>
                 <g>
-                    <a xlink:title="Este es un continente" class="Asia">
+                    <a href="./view/listado.php?idPais=3" xlink:title="Este es un continente" class="Asia">
                         <g>
                             <path fill="#E52713" d="M1145.97,437.996c-5.124-1.505-3.313-1.505-5.124-2.704c-1.801-1.209-1.801,3.906-2.702,4.214
                     c-0.91,0.303-2.697-0.602-2.697-4.214c0-3.607-1.82-1.209-3.019-2.104c-1.19-0.896-3.304-3-6.01-3.612
@@ -232,7 +236,7 @@
                     " />
                         </g>
                     </a>
-                    <a xlink:title="Este es un continente" class="America">
+                    <a href="./view/listado.php?idPais=1" xlink:title="Este es un continente" class="America">
                         <g>
                             <g>
                                 <path fill="#75AE2C" d="M347.164,375.669c0,0,1.811,2.104,3.91,2.104c2.099,0,3.901,3.607,3.901,3.607s3.918,2.704,6.034,1.811
@@ -567,7 +571,7 @@
                             </g>
                         </g>
                     </a>
-                    <a href="" xlink:title="Este es un continente" class="Oceania">
+                    <a href="./view/listado.php?idPais=4" xlink:title="Este es un continente" class="Oceania">
                         <path fill="#008158"
                             d="M912.805,763.311c0,0,1.993-2.391,0.395-4.401c-1.608-2.008-0.804-3.217,0.4-6.429
 			c1.199-3.195,3.222-1.197,4.421-3.195c1.209-2.02,2.408-4.816,6.01-4.816c3.612,0,6.434,0.811,8.827-1.594
@@ -619,7 +623,7 @@
                     <path opacity="0.5" fill="#2EB6B9" d="M551.926,517.688c-0.157-0.024-0.308-0.043-0.503-0.043
 			C550.636,517.644,551.002,517.678,551.926,517.688z" />
                     <path fill="#2EB6B9" d="M662.424,580.823c0,0-0.279,0.205-0.664,0.522l3.169-0.522H662.424z" />
-                    <a xlink:title="Este es un continente" class="Europa">
+                    <a href="./view/listado.php?idPais=2" xlink:title="Este es un continente" class="Europa" data-bs-toggle="modal" data-bs-target="#europa">
                         <g>
                             <path fill="#75AE2C" d="M536.377,497.797c0,0-2.699-4.211-1.209-4.211c1.512,0,4.522,0.595,4.522-0.905
                     c0-1.507-0.313-3.01,2.109-3.01c2.398,0,4.806,0.6,5.105,1.503c0.303,0.903,1.507,2.413,0.303,5.126
@@ -714,7 +718,7 @@
                     c-5.418,4.216-10.402,7.883-11.519,8.452c0,0-4.801-0.891-5.923-2.413" />
                         </g>
                     </a>
-                    <a href="" xlink:title="Este es un continente" class="Africa">
+                    <a href="./view/listado.php?idPais=5" xlink:title="Este es un continente" class="Africa" data-bs-toggle="modal" data-bs-target="#africa">
                         <g>
                             <path fill="#75AE2C"
                                 d="M721.074,644.995c-1.204-0.802-2.798-0.802-5.615,1.197c-2.798,2.006-7.614,1.206-10.021,0.802

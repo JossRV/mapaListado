@@ -1,4 +1,4 @@
-CREATE SCHEMA `buscador` ;
+-- CREATE SCHEMA `buscador` ;
 CREATE TABLE `buscador`.`t_continente` (
 `id_continente` INT NOT NULL AUTO_INCREMENT,
 `nombre` VARCHAR(45) NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE `buscador`.`t_paises` (
 `id_pais` INT NOT NULL AUTO_INCREMENT,
 `id_continente` INT NOT NULL,
 `nombre` VARCHAR(45) NOT NULL,
-`bandera` TEXT NULL,
+`bandera` TEXT NOT NULL,
 PRIMARY KEY (`id_pais`),
 INDEX `id_continente_idx` (`id_continente` ASC),
 CONSTRAINT `id_continente`
